@@ -67,3 +67,27 @@ if tentativas == 0:
 
     print("Você perdeu!")
     print("A palavra era:", palavra)
+
+def draw_character():
+    hangman = [
+        """"
+        -----------
+        |
+        |
+        |
+        |
+        |
+        |
+        -
+    """,
+        """"
+        -----------
+        |         |
+        |         0
+        |
+        |
+        |
+        |
+        -
+    """
+    ]
